@@ -1,0 +1,26 @@
+.titulo-lista{
+    font-weight: bold;
+}
+
+dl{
+    margin-left: 40px;
+}
+
+header{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(229, 229, 229, 1);
+}
+
+h1, h2{
+    color: rgba(0, 86, 119, 1);
+    background-color: rgba(196, 196, 196, 1);
+    letter-spacing: 10px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(0, 86, 119, 1);
+}
