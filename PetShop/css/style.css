@@ -1,0 +1,126 @@
+/* Header y descuentos */
+.oferta-idioma-moneda{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-left: 8%;
+    padding-right: 3%;
+}
+.idioma-moneda{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+header{
+    height: 60px;
+    background-color: rgba(240, 168, 62, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.link-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: white;
+}
+
+/* Main - imagen */
+.imagen-grande{
+    display: flex;
+    flex-direction: column;
+}
+.avisos-botones{
+    position: relative;
+    bottom: 450px;
+    left: 650px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(60, 35, 19, 1);
+}
+.avisos-botones h1{
+    font-size: 30px;
+    background-color: white;
+}
+
+/* Main - Destacados */
+.pawprint-productos{
+    position: relative;
+    bottom: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.pawprint{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pawprint h1{
+    color: rgba(60, 35, 19, 1);
+    font-size: 40px;
+}
+.pawprint h3{
+    color: rgba(102, 102, 102, 1);
+}
+.productos{
+    display: flex;
+    justify-content: center;
+}
+.productos div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productos h5{
+    position: relative;
+    bottom: 80px;
+    color: rgba(60, 35, 19, 1);
+}
+.productos div .precio{
+    position: relative;
+    bottom: 110px;
+    color: rgba(240, 168, 62, 1)
+}
+
+/* Contacto */
+.contacto{
+    position: relative;
+    bottom: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.contacto h1{
+    color: rgba(60, 35, 19, 1);
+}
+.contacto .info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contacto .info span{
+    display: inherit;
+    width: 340px;
+    height: 40px;
+    color: white;
+    background-color: rgba(60, 35, 19, 1);
+    align-items: center;
+    font-size: 9px;
+}
+.contacto .botones{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .botones span{
+    
+}
+
+.negrita{
+    font-weight: bold;
+}

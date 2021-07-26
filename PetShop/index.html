@@ -4,46 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
+    <section class="oferta-idioma-moneda">
+        <div>
+            <span>Grandes ofertas en comederos</span>
+        </div>
+        <div class="idioma-moneda">
+            <span>Español</span>
+            <span>ARG$</span>
+        </div>
+    </section>
     <header>
-        <p>Grandes ofertas en comederos    |    Español    |    ARG$</p>
         <img src="./img/Logo.png" alt="Logo Pet Shop">
-        <ul>
-            <li>Categorias</li>
-            <li>Pets</li>
-            <li>Nosotros</li>
-            <li>Contáctanos</li>
-        </ul>
+        <div class="link-nav">
+            <span>Categorias</span>
+            <span>Pets</span>
+            <span>Nosotros</span>
+            <span>Contáctanos</span>
+        </div>
     </header>
-    
-    <hr>
 
     <main>
-        <section>
+        <section class="imagen-grande">
             <img src="./img/bowl-and-pet-daities-on-green-background 1.png" alt="Imagen fondo">
-            <h1>¡Es un placer tenerte aquí!</h1>
-            <h3>¡Comederos en descuento!</h3>
-            <h2>Comederos</h2>
+            <div class="avisos-botones">
+                <h1>¡Es un placer tenerte aquí!</h1>
+                <h3>¡Comederos en descuento!</h3>
+                <h2>Comederos</h2>
+            </div>
         </section>
-        <section>
-            <img src="./img/pawprint 1.png" alt="Imagen patita">
-            <h1>Productos Destacados</h1>
-            <h3>Comederos - Accesorios - Comidas</h3>
-            <br>
-            <img src="./img/churrasquito.png" alt="Juguete churrasquito">
-            <h5>Juguete Churrasquito</h5>
-            <h5>150$</h5>
-            <br>
-            <img src="./img/comedero.png" alt="Comedero">
-            <h5>Comedero para perro</h5>
-            <h5>250$</h5>
-            <br>
-            <img src="./img/Huesito.png" alt="Juguete Huesito">
-            <h5>Juguete Huesito</h5>
-            <h5>650$</h5>
-            <br>
+        <section class="pawprint-productos">
+            <article class="pawprint">
+                <img src="./img/pawprint 1.png" alt="Imagen patita">
+                <h1>Productos Destacados</h1>
+                <h3>Comederos - Accesorios - Comidas</h3>
+            </article>
+            <article class="productos">
+                <div>
+                    <img src="./img/churrasquito.png" alt="Juguete churrasquito">
+                    <h5>Juguete Churrasquito</h5>
+                    <h5 class="precio">150$</h5>
+                </div>
+                <div>
+                    <img src="./img/comedero.png" alt="Comedero">
+                    <h5>Comedero para perro</h5>
+                    <h5 class="precio">250$</h5>
+                </div>
+                <div>
+                    <img src="./img/Huesito.png" alt="Juguete Huesito">
+                    <h5>Juguete Huesito</h5>
+                    <h5 class="precio">650$</h5>
+                </div>
+            </article>
+        </section>
+
+        <section class="contacto">
+            <h1>Contáctanos</h1>
+            <article class="info">
+                <span>Nombre y Apellido</span>
+                <span>Ingresá tu correo electrónico</span>
+                <span>Teléfono</span>
+            </article>
+            <article class="botones">
+                <span>Resetear</span>
+                <span>Enviar</span>
+            </article>
         </section>
 
     </main>

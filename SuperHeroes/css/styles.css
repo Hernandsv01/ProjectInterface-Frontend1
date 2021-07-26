@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.descuentos{
+    display: flex;
+    background-color: rgba(28, 209, 176, 1);
+    height: 38px;
+    align-items: center;
+    padding-left: 1%;
+}
+header{
+    display: flex;
+    background-color: rgba(0, 102, 159, 1);
+    height: 101px;
+    align-items: center;
+    padding-left: 2%;
+    font-size: 40px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+/* Tarjetas */
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+.cards article div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+.cards article div.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    background-color: rgba(243, 243, 243, 1);
+    padding-top: 20%;
+}
+.cards article div .perfil{
+    display: inherit;
+    position: relative;
+    top: 250px;
+    border-radius: 50%;
+
+}
+.cards article div .corazon{
+    display: inherit;
+    position: relative;
+    top: 160px;
+    right: 40%;
+}
+.cards article h2{
+    position: relative;
+    bottom: 8%;
+    font-size:xx-large;
+}
+.cards article .info .boton-perfiles{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(0, 102, 159, 1);
+    color: white;
+}
+p{
+    margin: 7%;
+}
+footer section{
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 82.07%;
+    background-color: rgba(0, 102, 159, 1);
+    color: white;
+    height: 51px;
+}

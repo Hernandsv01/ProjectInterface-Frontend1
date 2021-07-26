@@ -12,10 +12,17 @@ header{
     background-color: rgba(229, 229, 229, 1);
 }
 
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 h1, h2{
     color: rgba(0, 86, 119, 1);
     background-color: rgba(196, 196, 196, 1);
     letter-spacing: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 footer{
@@ -23,4 +30,5 @@ footer{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgba(0, 86, 119, 1);
+    line-height: 40px;
 }
