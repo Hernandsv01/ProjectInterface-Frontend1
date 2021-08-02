@@ -1,4 +1,9 @@
-/* Header y descuentos */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Descuentos e idioma */
 .oferta-idioma-moneda{
     display: flex;
     justify-content: space-between;
@@ -12,66 +17,76 @@
     flex-direction: row;
     gap: 50px;
 }
+
+/* Header */
 header{
-    height: 60px;
     background-color: rgba(240, 168, 62, 1);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding: 20px;
 }
-.link-nav{
+nav ul{
     display: flex;
-    flex-direction: row;
+    list-style: none;
     gap: 30px;
+}
+nav ul li a{
     color: white;
 }
 
 /* Main - imagen */
-.imagen-grande{
-    display: flex;
-    flex-direction: column;
+.imagen-grande img{
+    width: 100%;
 }
-.avisos-botones{
+.imagen-grande{
     position: relative;
-    bottom: 450px;
-    left: 650px;
-    font-size: large;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.imagen-grande .avisos-botones{
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 2%;
+    gap: 12px;
     color: rgba(60, 35, 19, 1);
 }
 .avisos-botones h1{
     font-size: 30px;
     background-color: white;
+    padding: 10px;
+}
+.avisos-botones h2{
+    background-color: rgba(240, 168, 62, 1);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 /* Main - Destacados */
 .pawprint-productos{
     position: relative;
-    bottom: 200px;
-    display: flex;
-    flex-direction: column;
-}
-.pawprint{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
 }
-.pawprint h1{
-    color: rgba(60, 35, 19, 1);
-    font-size: 40px;
-}
-.pawprint h3{
-    color: rgba(102, 102, 102, 1);
+.pawprint-productos ul{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    list-style: none;
+    display: flex;
+    gap: 13px;
 }
 .productos{
+    position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
-.productos div{
+/* .productos div{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,13 +99,12 @@ header{
 .productos div .precio{
     position: relative;
     bottom: 110px;
-    color: rgba(240, 168, 62, 1)
-}
+    color: rgba(240, 168, 62, 1);
+} */
 
 /* Contacto */
 .contacto{
     position: relative;
-    bottom: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,6 +135,11 @@ header{
     
 }
 
-.negrita{
-    font-weight: bold;
+/* Footer */
+footer h3{
+    color: white;
+    background-color: rgba(34, 34, 34, 1);
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
 }

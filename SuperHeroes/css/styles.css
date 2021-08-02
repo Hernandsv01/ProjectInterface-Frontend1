@@ -11,6 +11,9 @@
     padding-left: 1%;
 }
 header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
     display: flex;
     background-color: rgba(0, 102, 159, 1);
     height: 101px;
@@ -24,10 +27,8 @@ header{
 .cards{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 10px;
-    margin-right: 25%;
-    margin-left: 25%;
 }
 .cards article div{
     display: flex;
@@ -75,12 +76,11 @@ p{
     margin: 7%;
 }
 footer section{
-    position: absolute;
-    bottom: 0%;
+    bottom: 0px;
     display: flex;
     align-items: center;
     padding-left: 2%;
-    padding-right: 82.07%;
+    margin-top: 10%;
     background-color: rgba(0, 102, 159, 1);
     color: white;
     height: 51px;
