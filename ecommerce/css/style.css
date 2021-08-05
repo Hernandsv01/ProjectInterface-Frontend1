@@ -54,7 +54,7 @@ select option{
     color: black;
 }
 .info-input form input:focus{
-    outline: none ! important;
+    outline: none;
     border-color: rgba(28, 209, 176, 1);
     border-width: medium;
 }
@@ -80,18 +80,18 @@ select option{
     font-weight: bold;
     width: 50%;
 }
-.info-input form button:hover{
-    background-color: rgb(15, 122, 103);
-    color: white;
-    cursor: pointer;
-}
-.info-input form button[type=submit]{
+.info-input form section button[type=submit]{
     background-color: rgba(28, 209, 176, 1);
     color: black;
 }
-.info-input form button[type=reset]{
+.info-input form section button[type=reset]{
     background-color: rgba(136, 136, 136, 1);
     color: white;
+}
+.info-input form section button:hover{
+    background-color: rgb(15, 122, 103);
+    color: white;
+    cursor: pointer;
 }
 .link-registro{
     display: flex;
