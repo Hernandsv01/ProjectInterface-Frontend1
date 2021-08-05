@@ -28,7 +28,13 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
     margin-top: 10px;
+}
+@media(max-width: 900px) {
+    .cards{
+        flex-direction: column;
+    }
 }
 .cards article div{
     display: flex;
@@ -75,13 +81,24 @@ header{
 p{
     margin: 7%;
 }
+
+/* Footer */
 footer section{
     bottom: 0px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding-left: 2%;
+    padding-right: 2%;
     margin-top: 10%;
     background-color: rgba(0, 102, 159, 1);
     color: white;
     height: 51px;
+}
+footer section a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
 }

@@ -86,21 +86,13 @@ nav ul li a{
     display: flex;
     justify-content: space-evenly;
 }
-/* .productos div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media (max-width: 512px){
+    .productos{
+        flex-direction: column;
+
+    }
 }
-.productos h5{
-    position: relative;
-    bottom: 80px;
-    color: rgba(60, 35, 19, 1);
-}
-.productos div .precio{
-    position: relative;
-    bottom: 110px;
-    color: rgba(240, 168, 62, 1);
-} */
+
 
 /* Contacto */
 .contacto{
@@ -130,9 +122,6 @@ nav ul li a{
 .contacto .botones{
     display: flex;
     justify-content: space-around;
-}
-.contacto .botones span{
-    
 }
 
 /* Footer */

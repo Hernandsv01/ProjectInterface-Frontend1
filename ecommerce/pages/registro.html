@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="descuentos">
+        <span>20% de descuento en todos los productos!</span>
+    </div>
+    <header>
+        <img src="../img/index/logo 1.png" alt="Logo ecommerce">
+        <h1>Nombre Tienda</h1>
+    </header>
+    
+    <main>
+        <h2>Registro</h2>
+        <section class="info-input">
+            <form action="./inicio.html" method="GET/POST">
+                <input type="text" name="nombre" placeholder="Nombre y Apellido" required>
+                <input type="email" name="mail" placeholder="Correo electrónico" required>
+                <input type="password" name="contraseña" placeholder="Contraseña" required>
+                <select name="pais" id="pais" required>
+                    <option value="" disabled selected hidden>País</option>
+                    <option value="arg">Argentina</option>
+                    <option value="uru">Uruguay</option>
+                    <option value="bra">Brasil</option>
+                </select>
+                <section class="botones-doble">
+                    <button type="reset">Resetear</button>
+                    <button type="submit">Entrar</button>
+                </section>
+            </form>
+        </section>
+        <section class="link-registro">
+            <span>¿Ya tienes una cuenta?</span>
+            <a href="../index.html">Iniciar sesión</a>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <span>Todos los derechos resevados a FRONT END 1</span>
+            <a href="../../index.html">Menú</a>
+        </section>
+    </footer>
+</body>
+</html>
