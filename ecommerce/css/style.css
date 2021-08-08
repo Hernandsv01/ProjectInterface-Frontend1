@@ -148,14 +148,25 @@ footer section a:hover{
 }
 @media(min-height: 780px){
     main{
+        margin-top: 150px;
+    }
+    footer{
+        margin-top: 200px;
+    }
+}
+@media(min-height: 930px){
+    main{
         margin-top: 200px;
     }
     footer{
-        margin-top: 150px;
+        margin-top: 250px;
     }
 }
 @media(min-height: 1280px){
+    main{
+        margin-top: 400px;
+    }
     footer{
-        margin-top: 450px;
+        margin-top: 600px;
     }
 }
