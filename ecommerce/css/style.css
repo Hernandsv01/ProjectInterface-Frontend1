@@ -36,6 +36,7 @@ main{
     flex-direction: column;
     justify-content: center;
     margin: 10% 30%;
+    height: calc(100vh - 139px - 51px);
 }
 main h2{
     font-size: 3rem;
@@ -132,28 +133,14 @@ footer section a:hover{
     background-color: black;
     color: white;
 }
-@media (min-height: 1287px){
-    main{
-        margin: 500px 30%
-    }
-}
 @media(max-width: 800px){
     main{
         margin: 10%;
-        margin-top: 300px;
     }
     header h1{
         font-size: 2.5rem;
     }
-    footer{
-        margin-top: 500px;
-    }
     footer section span{
         margin: 100px;
-    }
-}
-@media (max-width: 800px) and (min-height: 1287px){
-    main{
-        margin: 500px 10%
     }
 }
